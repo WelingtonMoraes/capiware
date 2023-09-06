@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "files.maxMemoryForLargeFilesMB": 4000,
+    "typescript.tsserver.maxTsServerMemory": 1000,
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "window.zoomLevel": 1,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "mssql.enableQueryHistoryCapture": false,
+    "mssql.objectExplorer.groupBySchema": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontSize": 12,
+    "editor.formatOnSave": true, 
+    "eslint.alwaysShowStatus": true, 
+    "files.autoSave": "onFocusChange"
+}
