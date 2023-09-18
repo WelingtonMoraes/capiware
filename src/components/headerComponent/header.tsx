@@ -1,12 +1,11 @@
 import React from 'react';
+import '../../styles/header.scss';
 
-type HeaderProps = {
-	title: string;
-};
-
-const Header: React.FC<HeaderProps> = ({title}) => (
+const Header: React.FC = () => (
 	<header>
-		<p>teste porra</p>
+		<div className='container'>
+
+		</div>
 	</header>
 );
 
