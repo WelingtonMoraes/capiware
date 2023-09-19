@@ -1,13 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 /* variables */
-$widthContent: 1728px;
+$widthContent: 1440px;
 $mobileWidth: 980px;
+
+@import '~bulma/bulma.sass';
 
 body {
   margin: 0;
+  color: #FFFFFF;
 
-  .container {
-    width: 100%;
+  .bd-content {
+    width: 90%;
     max-width: $widthContent;
     margin: 0 auto;
   }
