@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../styles/header.scss';
+import './style.scss';
+import ButtonPrimary from '../button/ButtonPrimary';
 import logoEmpresa from '../../assets/logos/logo_empresa.png';
 
 const Header: React.FC = () => (
@@ -26,12 +27,7 @@ const Header: React.FC = () => (
 
 					<div className='navbar-end'>
 						<div className='navbar-item'>
-							<div className='buttons'>
-								<a className='button is-primary'>
-									<strong>Sign up</strong>
-								</a>
-								<a className='button is-light'>Log in</a>
-							</div>
+							<ButtonPrimary text={'Let’s Talk'}/>
 						</div>
 					</div>
 				</div>
