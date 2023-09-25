@@ -1,16 +1,32 @@
 header{
     width: 100%;
-    position: fixed;
-    margin-top: 2rem;
+    background-color: #131313;
+    z-index: 1;
+    position: relative;
 
     .navbar{
-        background-color: transparent;
+        background-color: #131313;
+        min-height: 5rem;
 
         .navbar-item{
             color: #FFF;
+            transition: 100ms linear;
+
+            &:hover{
+                color: #131313;
+            }
+
+            span{
+                font-family: Rubik;
+                font-size: 1.82181rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
 
             img{
                 max-height: none;
+                margin-right: 0.3rem;
             }
         }
     }
