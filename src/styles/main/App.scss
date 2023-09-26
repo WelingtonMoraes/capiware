@@ -21,9 +21,39 @@
 
 .quemSomos{
     background-color: #131313;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
-    .columns{
-        margin-top: 0px;
-        margin-bottom: 0px;
+    .bd-content{
+        max-width: 950px;
+
+        .columns{
+            margin: 0px;
+
+            p{
+                line-height: 1.875rem;
+            }
+    
+            img{
+                object-fit: cover;
+                width: 100%;
+                max-width: 215px;
+                max-height: 195px;
+                border-radius: 1.9375rem;
+            }
+        }
+    }
+
+    &__descricao{
+        max-width: 21.8125rem;
+        margin: 0 auto;
+
+        &--item{
+            font-size: 0.875rem;
+        }
+
+        svg{
+            margin-right: 0.65rem;
+        }
     }
 }

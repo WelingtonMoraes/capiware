@@ -1,0 +1,15 @@
+footer{
+    color: #0B132A;
+
+    .empresa{
+        &__logo{
+            span{
+                font-family: 'Rubik', sans-serif;
+                font-size: 1.68306rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+}
