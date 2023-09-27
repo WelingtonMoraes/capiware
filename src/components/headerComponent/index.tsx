@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Typewriter from 'typewriter-effect';
 import './style.scss';
-import ButtonPrimary from '../button/ButtonPrimary';
+import ButtonPrimary from '../button';
 import logoEmpresa from '../../assets/logos/logo_empresa.png';
 
 const Header: React.FC = () => (

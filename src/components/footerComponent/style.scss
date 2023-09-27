@@ -1,14 +1,57 @@
 footer{
     color: #0B132A;
+    padding: 2.6rem 1rem 2.6rem 1rem !important;
 
     .empresa{
         &__logo{
+
+            img{
+                margin-right: 0.35rem;
+            }
+
             span{
                 font-family: 'Rubik', sans-serif;
                 font-size: 1.68306rem;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
+            }
+        }
+
+        p{
+            font-size: 0.875rem;
+        }
+    }
+
+    .social{
+        &__redes{
+            min-height: 50px;
+
+            &-item{
+                display: flex;
+                margin-left: 1.35rem;
+
+                a{
+                    color: #0B132A;
+    
+                    &:hover{
+                        color: #4066E0;
+                    }
+                }
+            }
+        }
+
+        &__links{
+            a{
+                color: #0B132A;
+                font-size: 0.875rem;
+                font-style: normal;
+                font-weight: 400;
+                margin-left: 2rem;
+
+                &:hover{
+                    color: #4066E0;
+                }
             }
         }
     }

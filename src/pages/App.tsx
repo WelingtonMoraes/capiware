@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from '../assets/logo.svg';
 import '../styles/main/App.scss';
-import ButtonPrimary from '../components/button/ButtonPrimary';
+import ButtonPrimary from '../components/button';
+import Contato from '../components/contatoComponent';
 
 function App() {
 	return (
@@ -75,6 +76,14 @@ function App() {
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div className='contato'>
+				<div className='bd-content is-flex is-justify-content-center'>
+					<h2>Entre em contato conosco</h2>
+
+					<Contato />
 				</div>
 			</div>
 		</div>
