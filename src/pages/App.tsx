@@ -3,6 +3,7 @@ import logo from '../assets/logo.svg';
 import '../styles/main/App.scss';
 import ButtonPrimary from '../components/button';
 import Contato from '../components/contatoComponent';
+import {NavHashLink} from 'react-router-hash-link';
 
 function App() {
 	return (
@@ -23,13 +24,15 @@ function App() {
                                 criar sistemas de software de <b>alta qualidade</b>
                                 que atendam às necessidades específicas de cada cliente.
 							</p>
-							<ButtonPrimary text={'Entre em Contato'} shadow={true} />
+							<a href='#idContatos'>
+								<ButtonPrimary text={'Entre em Contato'} shadow={true} />
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div className='quemSomos is-flex is-align-items-center'>
+			<div id='idQuemSomos' className='quemSomos is-flex is-align-items-center'>
 				<div className='bd-content'>
 					<div className='columns'>
 						<div className='column is-6'>
@@ -79,11 +82,12 @@ function App() {
 				</div>
 			</div>
 
-			<div className='contato'>
-				<div className='bd-content is-flex is-justify-content-center'>
-					<h2>Entre em contato conosco</h2>
-
-					<Contato />
+			<div id='idContatos' className='faleConosco'>
+				<div className='bd-content is-flex is-flex-wrap-wrap is-justify-content-center'>
+					<h2 className='mb-5'>Entre em contato conosco</h2>
+					<div className='faleConosco__form is-flex is-justify-content-center'>
+						<Contato />
+					</div>
 				</div>
 			</div>
 		</div>

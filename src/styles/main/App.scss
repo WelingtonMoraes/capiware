@@ -58,8 +58,12 @@
     }
 }
 
-.contato{
+.faleConosco{
     background-color: #131313;
     padding-top: 3rem;
     padding-bottom: 3rem;
+
+    &__form{
+        width: 100%;
+    }
 }

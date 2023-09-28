@@ -1,0 +1,90 @@
+.contato{
+    border-radius: 1.12931rem;
+    background: #FFF;
+    box-shadow: 0px 5.76972px 72.12157px 0px rgba(0, 0, 0, 0.05);
+
+    max-width: 945px;
+    width: 90%;
+    padding: 2.85rem;
+
+    label{
+        color: #000;
+        font-weight: 500;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .column{
+        padding: 0.5rem;
+    }
+
+    &__inputText{
+        border-radius: 0.45075rem;
+        border: 1.442px solid rgba(66, 80, 102, 0.40);
+        background: #FFF;
+        box-shadow: 0px 2.88486px 5.76972px 0px rgba(66, 80, 102, 0.10);
+
+        color: #000;
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0.68rem;
+        height: auto;
+    }
+
+    .react-tel-input{
+        .form-control{
+            border-radius: 0.45075rem !important;
+            border: 1.442px solid rgba(66, 80, 102, 0.40) !important;
+            background: #FFF !important;
+            box-shadow: 0px 2.88486px 5.76972px 0px rgba(66, 80, 102, 0.10) !important;
+            width: 100% !important;
+            min-height: 40px;
+            height: auto;
+            padding: 0.68rem 0.68rem 0.68rem 3rem;
+
+            color: #000;
+            font-family: Montserrat;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .flag-dropdown{
+            border-radius: 0.45075rem 0 0 0.45075rem !important;
+            border: 1.442px solid rgba(66, 80, 102, 0.40) !important;
+            border-right: 0px solid transparent !important;
+
+            .selected-flag{
+                border-radius: 0.45075rem 0 0 0.45075rem !important;
+                background-color: transparent !important;
+                position: relative;
+                width: 2.8rem;
+
+                .arrow{
+                    left: 23px;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    width: 1px;
+                    height: 70%;
+                    background-color: #D9D9D9;
+                    transform: translateY(-50%);
+                }
+            }
+
+            .country-list{
+                border-radius: 0.45075rem !important;
+                color: #000;
+            }
+
+            &:hover{
+                border-radius: 0.45075rem 0 0 0.45075rem !important;
+                border: 1.442px solid rgba(66, 80, 102, 0.40) !important;
+                border-right: 0px solid transparent !important;
+            }
+        }
+    }
+}

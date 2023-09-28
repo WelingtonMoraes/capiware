@@ -6,6 +6,10 @@ $mobileWidth: 980px;
 @import '~bulma/bulma.sass';
 @import './font.scss';
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   color: #FFFFFF;

@@ -44,8 +44,8 @@ const Footer: React.FC = () => (
 							</div>
 						</div>
 						<div className='social__links is-full is-flex is-align-items-center is-justify-content-end'>
-							<a href=''>Sobre nós</a>
-							<a href=''>Contato</a>
+							<a href='#idQuemSomos'>Sobre nós</a>
+							<a href='#idContatos'>Contato</a>
 							<a href=''>Políticas de privacidade</a>
 						</div>
 					</div>

@@ -23,8 +23,8 @@ const Header: React.FC = () => (
 
 				<div id='navbarBasicExample' className='navbar-end'>
 					<div className='navbar-menu'>
-						<a className='navbar-item'>Sobre nós</a>
-						<a className='navbar-item'>Contato</a>
+						<a href='#idQuemSomos' className='navbar-item'>Sobre nós</a>
+						<a href='#idContatos' className='navbar-item'>Contato</a>
 					</div>
 
 					{/* <div className='navbar-end'>
