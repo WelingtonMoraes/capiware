@@ -17,6 +17,26 @@
         margin-bottom: 1.8rem;
         max-width: 85%;
     }
+
+    @media screen and (max-width: 768px){
+        min-height: 42rem;
+        background:
+            linear-gradient(
+                180deg,
+                rgba(0, 0, 0, 0.00) -13.21%, #000 100%
+            ),
+            url('../../assets/backgrounds/bgBanner.png'), no-repeat;
+
+        .column{
+            padding: 0px 15px;
+        }
+    }
+
+    @media screen and (max-width: 920px){
+        .is-three-fifths{
+            display: none;
+        }
+    }
 }
 
 .quemSomos{
@@ -40,6 +60,11 @@
                 max-width: 215px;
                 max-height: 195px;
                 border-radius: 1.9375rem;
+            }
+
+            @media screen and (max-width: 768px){
+                display: flex;
+                flex-direction: column-reverse;
             }
         }
     }

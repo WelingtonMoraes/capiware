@@ -16,10 +16,21 @@ footer{
                 font-weight: 700;
                 line-height: normal;
             }
+
+            @media screen and (max-width: 768px){
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         }
 
         p{
             font-size: 0.875rem;
+
+            @media screen and (max-width: 768px){
+                text-align: center;
+                font-size: 0.675rem;
+            }
         }
     }
 
@@ -38,6 +49,14 @@ footer{
                         color: #4066E0;
                     }
                 }
+
+                @media screen and (max-width: 768px){
+                    margin-left: 0px;
+                    width: 25%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
             }
         }
 
@@ -52,7 +71,29 @@ footer{
                 &:hover{
                     color: #4066E0;
                 }
+
+                @media screen and (max-width: 768px){
+                    margin-left: 0px;
+                }
             }
+
+            @media screen and (max-width: 920px){
+                flex-direction: column-reverse;
+                align-items: flex-end !important;
+            }
+
+            @media screen and (max-width: 768px){
+                align-items: center !important;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        .columns{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column-reverse;
+            align-items: center;
         }
     }
 }

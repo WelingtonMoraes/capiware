@@ -28,6 +28,51 @@ header{
                 max-height: none;
                 margin-right: 0.3rem;
             }
+
+            @media screen and (max-width: 1023px){
+                display: flex;
+                align-items: center;
+                padding: 0px;
+            }
+        }
+
+        .menu-list{
+            display: none;
+            background-color: #131313;
+            position: absolute;
+            top: 80px;
+            left: 0px;
+            width: 100%;
+            padding: 1rem;
+
+            a{
+                margin-bottom: 10px;
+            }
+        }
+
+        .is-open{
+            display: block;
+
+            @media screen and (min-width: 1023px){
+                display: none;
+            }
+        }
+
+        .navbar-burger{
+            color: #FFF;
+        }
+        
+        @media screen and (max-width: 1023px){
+            display: flex;
+            align-items: center;
+
+            .navbar-start{
+                width: 75%;
+            }
+
+            .navbar-end{
+                width: 25%;
+            }
         }
     }
 }

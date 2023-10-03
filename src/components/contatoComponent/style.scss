@@ -15,6 +15,10 @@
 
     .column{
         padding: 0.5rem;
+
+        @media screen and (max-width: 768px){
+            margin: 0px;
+        }
     }
 
     &__inputText{
@@ -78,6 +82,13 @@
             .country-list{
                 border-radius: 0.45075rem !important;
                 color: #000;
+
+                .country-name{
+                    color: #000;
+                    font-family: Montserrat;
+                    font-size: 0.85rem;
+                    font-weight: 500;
+                }
             }
 
             &:hover{
@@ -86,5 +97,10 @@
                 border-right: 0px solid transparent !important;
             }
         }
+    }
+
+    @media screen and (max-width: 768px){
+        padding: 1.85rem;
+        width: 100%;
     }
 }
